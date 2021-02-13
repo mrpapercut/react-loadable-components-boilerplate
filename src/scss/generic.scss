@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: $bodyBackground;
+    color: $textColor;
+    font-family: 'Lato', sans-serif;
+}
+
+button {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    color: $linkColor;
+    text-decoration: none;
+
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
